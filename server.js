@@ -22,7 +22,7 @@ app.post('',(req,res)=>{
     
 })
 
-app.listen(3000, (res) => {
+app.listen(PORT, (res) => {
     console.log("SERVER STARTED AT PORT 3000")
 })
 
